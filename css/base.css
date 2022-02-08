@@ -37,23 +37,22 @@
   /***************
   *** Distance ***
   ****************/
-  --base-distance: 0.25rem;
   --distance-0: 0rem;
-  --distance-1: var(var(--base-distance)*1);
-  --distance-2: var(var(--base-distance)*2);
-  --distance-3: var(var(--base-distance)*3);
-  --distance-4: var(var(--base-distance)*4);
-  --distance-5: var(var(--base-distance)*5);
-  --distance-6: var(var(--base-distance)*6);
-  --distance-7: var(var(--base-distance)*7);
-  --distance-8: var(var(--base-distance)*8);
-  --distance-9: var(var(--base-distance)*9);
-  --distance-10: var(var(--base-distance)*10);
-  --distance-11: var(var(--base-distance)*11);
-  --distance-12: var(var(--base-distance)*12);
-  --distance-13: var(var(--base-distance)*13);
-  --distance-14: var(var(--base-distance)*14);
-  --distance-15: var(var(--base-distance)*15);
+  --distance-1: .25rem;
+  --distance-2: .5rem;
+  --distance-3: .75rem;
+  --distance-4: 1rem;
+  --distance-5: 1.25rem;
+  --distance-6: 1.5rem;
+  --distance-7: 1.75rem;
+  --distance-8: 2rem;
+  --distance-9: 2.25rem;
+  --distance-10: 2.5rem;
+  --distance-11: 2.75rem;
+  --distance-12: 3rem;
+  --distance-13: 3.25rem;
+  --distance-14: 3.5rem;
+  --distance-15: 3.75rem;
 
   /**************
   *** Shadows ***
