@@ -8,6 +8,12 @@
 ****************/
 .position-relative { position: relative !important;}
 .position-absolute { position: absolute !important;}
+.overflow-hiden {overflow: hidden;}
+.centerXY {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 /**************
@@ -56,6 +62,7 @@
 *** Typography ***
 ******************/
 .text-decoration-none { text-decoration: none;}
+.text-center { text-align: center;}
 
 .text-size-xxs { font-size: var(--display-xxs);}
 .text-size-xs { font-size: var(--display-xs);}
@@ -106,4 +113,23 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
  *** Images ***
  **************/
  .logo-width {max-width: 13rem;}
+
+
+ /***************
+ *** Slidshow ***
+ ***************/
+ .slider-width { width: 500%;}
+ .slider-container {width: 20%;}
+ .slider-image { width: 100%; object-fit: cover;}
+ .slider-animation {animation: 30s slider-keyframes infinite;}
+
+ @keyframes slider-keyframes {
+   0% {left: 0%;}
+   25% { left: -100%;}
+   50% { left: -200%;}
+   75% { left: -300%;}
+   99.9999% { left: -400%;}
+   100% {left: 0%;}
+  
+ }
 
