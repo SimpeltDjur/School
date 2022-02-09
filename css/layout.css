@@ -121,7 +121,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
  .slider-width { width: 500%;}
  .slider-container {width: 20%;}
  .slider-image { width: 100%; object-fit: cover;}
- .slider-animation {animation: 30s slider-keyframes infinite;}
+ /* .slider-animation {animation: 30s slider-keyframes infinite;} */
 
  @keyframes slider-keyframes {
    0% {left: 0%;}
