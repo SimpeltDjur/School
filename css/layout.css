@@ -3,6 +3,7 @@
  **************/
  .max-width {max-width: 192rem;}
  .card-width {max-width: 60rem;}
+ .card-lg {max-width: 50%;}
 
 /***************
 *** Position ***
@@ -23,7 +24,8 @@
  .mr-auto, .mx-auto { margin-right: auto;}
  .ml-auto, .mx-auto { margin-left: auto;}
 
- .mg-6 { margin: var(--distance-6);}
+ .m-6 { margin: var(--distance-6);}
+ .m-15 { margin: var(--distance-15);}
 
  .mt-0, .my-0 { margin-top: var(--distance-0);}
  .mb-0, .my-0 { margin-bottom: var(--distance-0);}
