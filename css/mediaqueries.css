@@ -1,0 +1,28 @@
+/* !important should not acctualy be needed since mediaquieres.css is acctually read last */
+
+@media only screen and (max-width: 69em) {
+  html {font-size: 50%;}
+}
+
+@media  only screen and (max-width: 56em) {
+  .f-width { max-width: 50%;}
+}
+@media  only screen and (max-width: 37em) {
+  .d-sm-none { display: none; }
+  .d-sm-block {display: block;}
+  nav div a:not(:first-child){ margin-left: 2rem;}
+  .f-width { max-width: 100%;}
+  .mb-sm-12 { margin-bottom: var(--distance-12);}
+  .flex-sm-column { flex-direction: column;}
+  footer > div > div {max-width: 100% !important;}
+  .mt-sm-12 {margin: var(--distance-12);}
+  .min-sm-width-xxl {min-width: 90%;}
+  
+}
+@media  only screen and (max-width: 31em){
+  .flex-xs-column {flex-direction: column;}
+  .img-xs-width {max-width: 150%;}
+  .heading-xxs-width {min-width: 100%;}
+}
+
+
