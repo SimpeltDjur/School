@@ -28,7 +28,7 @@
     /* Vertical liner left side */
     linear-gradient(to right,
       transparent 14%, var(--crayon-line-color) 14%,
-      var(--crayon-line-color) 23%, transparent 23%
+      var(--crayon-line-color) 17%, transparent 17%
     ),
 
     linear-gradient(to right,
