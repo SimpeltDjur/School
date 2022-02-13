@@ -69,7 +69,7 @@
                     </div>
                     <span class="text-white position-absolute icon-badge circle bg-success border-small-white text-size-xxs">3</span>
                 </a>
-                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative d-none">
                     <div class="d-flex align-items-center justify-content-between bg-info border-radious p-4 shadow-sm">
                         <i class="fa fa-bars text-white"></i>
                     </div>
@@ -259,7 +259,7 @@
         <div class="d-flex flex-column justify-content-center align-items-center text-white">
             <h1 class="mb-6">Need more information?</h1>
             <div class="mb-12">Lorem ipsum dolor sit amet, consectetuer adipiscing</div>
-            <button class="btn-danger text-white p-8 text-size-lg text-upercase border-transparent shadow-lg border-radious">
+            <button class="btn-danger text-white p-8 text-size-lg text-uppercase border-transparent shadow-lg border-radious">
                 <i class="fa fa-phone"></i>
                 Contact
             </button>
@@ -464,7 +464,7 @@
 
     <!-- Footer -->
     <footer class="d-flex justify-content-center align-items-center">
-        <div class="d-flex justify-content-center max-width m-15">
+        <div class="d-flex justify-content-center max-width mg-15">
             <!-- Address -->
             <div class="d-flex flex-column card-lg mr-6">
                 <img src="Images\images\logo-school.png" class="logo-width mb-6" alt="Logo">
@@ -485,12 +485,24 @@
                 </div>
             </div>
             <!-- Form -->
-            <form>
-
+            <form class="d-flex flex-column flex-grow">
+                <h2 class="text-primary mb-2">Contact</h2>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-user text-success position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="First Name" class="form-control border-color-success border-sm border-radious lh-md p-4 min-width-xxl">
+                </div>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-at text-warning position-absolute icon-form-control"></i>
+                    <input type="text" placeholder="Email" class="form-control border-color-warning border-sm border-radious lh-md p-4 min-width-xxl">
+                </div>
+                <div class="position-relative mb-2">
+                    <i class="fa fa-comments text-info position-absolute icon-form-control"></i>
+                    <textarea placeholder="Write your message here" class="form-control border-color-info border-sm border-radious lh-md p-4 min-width-xxl"></textarea>
+                </div>
+                <button class="btn-primary shadow-lg text-size-md text-uppercase border-transparent text-white p-6 ">Send Message</button>
             </form>
         </div>
     </footer>
-
     <!-- Colored Bars -->
     <div class="d-flex">
         <div class="flex-grow bar-height bg-warning"></div>
